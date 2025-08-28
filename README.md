@@ -1,12 +1,12 @@
-# 🐍🪜 Snakes and Ladders CLI Game
+## Snakes and Ladders CLI Game ##
 
 A beautiful command-line implementation of the classic Snakes and Ladders board game built with Python and Rich library for an enhanced visual experience.
 
-##  Game Overview
+##  Game Overview ##
 
 Snakes and Ladders is a classic board game where 2 players race to reach square 100 first. Players take turns rolling a dice to move across the board, climbing ladders for shortcuts and sliding down snakes as setbacks.
 
-## Features
+## Features ##
 
 - **Rich CLI Interface**: Beautiful tables, colors, and progress bars using the Rich library
 - **Interactive Gameplay**: Clean input handling and visual feedback
