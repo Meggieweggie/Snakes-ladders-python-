@@ -12,7 +12,7 @@ def show_welcome():
         "[bold magenta]Welcome to Snakes and Ladders![/bold magenta]\n"
         "[green]Climb ladders 🪜 and avoid snakes 🐍[/green]\n"
         "First to reach 100 wins!",
-        title="🎯 Let's Play!",
+        title=" Let's Play!",
         border_style="bright_blue",
         expand=False
     ))
@@ -31,9 +31,9 @@ def show_turn(player):
 def show_winner(game):
     console.clear()
     console.print(Panel(
-        f"[bold gold1]🎉 {game.winner.name} Wins the Game![/bold gold1]\n"
-        f"[italic]Congratulations! 🏆[/italic]",
-        title="🏆 Champion!",
+        f"[bold gold1] {game.winner.name} Wins the Game![/bold gold1]\n"
+        f"[italic]Congratulations! [/italic]",
+        title=" Champion!",
         style="bold white on green",
         border_style="yellow",
         expand=False
