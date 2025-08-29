@@ -54,7 +54,7 @@ def handle_player_turn(player_num, position, dice_roll):
     
     # Check for ladders
     elif position in ladders:
-        print(f"   {'🪜' if player_num == 1 else '   '} Wow! You found a ladder!", end="")
+        print("    Wow! You found a ladder!", end="")
         position = ladders[position]
         print(f" Climbing up to {position}")
     
