@@ -1,7 +1,7 @@
 def create_board():
-    board ={}
+    board = {}
 
-    #
+    
     board[16] = 6
     board[47] = 26
     board[49] = 11
@@ -13,14 +13,17 @@ def create_board():
     board[95] = 75
     board[98] = 78
 
-    #
-    board[1] = 38
-    board[4] = 14
-    board[9] = 31
-    board[21] = 42
+
+    board[3] = 22
+    board[5] = 8
+    board[11] = 26
+    board[20] = 29
+    board[27] = 84
     board[28] = 84
     board[36] = 44
     board[51] = 67
     board[71] = 91
-    board[80] = 100
-
+    board[78] = 98
+    board[87] = 94
+    
+    return board

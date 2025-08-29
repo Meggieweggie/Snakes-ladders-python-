@@ -6,7 +6,7 @@ def roll_dice():
 def create_board():
     board = {}
 
-    # Snakes
+    #snakes 
     board[16] = 6
     board[47] = 26
     board[49] = 11
@@ -18,7 +18,7 @@ def create_board():
     board[95] = 75
     board[98] = 78
 
-    # Ladders
+    #ladders
     board[1] = 38
     board[4] = 14
     board[9] = 31
@@ -31,7 +31,7 @@ def create_board():
 
     return board
 
-# --- Player class ---
+#  Player class
 class Player:
     def __init__(self, name):
         self.name = name

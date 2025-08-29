@@ -1,4 +1,4 @@
-# cli.py
+
 from rich.console import Console
 from rich.panel import Panel
 from rich.prompt import Prompt
@@ -10,7 +10,7 @@ def show_welcome():
     console.clear()
     console.print(Panel(
         "[bold magenta]Welcome to Snakes and Ladders![/bold magenta]\n"
-        "[green]Climb ladders 🪜 and avoid snakes 🐍[/green]\n"
+        "[green]Climb ladders  and avoid snakes [/green]\n"
         "First to reach 100 wins!",
         title=" Let's Play!",
         border_style="bright_blue",
@@ -26,7 +26,7 @@ def display_board(game):
     console.print(table)
 
 def show_turn(player):
-    console.print(f"\n[bold {player.color}]👉 {player.name}'s Turn[/bold {player.color}]")
+    console.print(f"\n[bold {player.color}] {player.name}'s Turn[/bold {player.color}]")
 
 def show_winner(game):
     console.clear()
