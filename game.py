@@ -61,7 +61,7 @@ class Game:
             won = player == self.winner
             self.db.update_player_stats(player.name, won)
         
-        # Show game summary
+
         table = Table(title="Game Summary")
         table.add_column("Stat", style="cyan")
         table.add_column("Value", style="magenta")
